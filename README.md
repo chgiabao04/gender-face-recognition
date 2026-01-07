@@ -28,7 +28,7 @@ pip install opencv-python numpy
 
 **Tải các file model sau và đặt vào thư mục gốc:**
 
-1. **gender_deploy.prototxt** - [Download](https://github.com/GilLevi/AgeGenderDeepLearning/blob/master/models/gender_net.prototxt)
+1. **gender_deploy.prototxt** - [Download](https://github.com/smahesh29/Gender-and-Age-Detection/blob/master/gender_deploy.prototxt)
 2. **gender_net.caffemodel** - [Download](https://github.com/GilLevi/AgeGenderDeepLearning/raw/master/models/gender_net.caffemodel)
 
 **Cấu trúc thư mục:**
