@@ -24,3 +24,31 @@ Hệ thống nhận diện giới tính sử dụng OpenCV và Deep Learning (Ca
 ```bash
 pip install opencv-python numpy
 ```
+### 3. Tải model
+
+**Tải các file model sau và đặt vào thư mục gốc:**
+
+1. **gender_deploy.prototxt** - [Download](https://github.com/GilLevi/AgeGenderDeepLearning/blob/master/models/gender_net.prototxt)
+2. **gender_net.caffemodel** - [Download](https://github.com/GilLevi/AgeGenderDeepLearning/raw/master/models/gender_net.caffemodel)
+
+**Cấu trúc thư mục:**
+```
+face_recognition/
+├── main.py
+├── gender_deploy.prototxt
+├── gender_net.caffemodel
+├── test.jpg (ảnh test, không bắt buộc)
+└── README.md
+```
+## 🚀 Sử dụng
+
+### Chạy chương trình
+
+```bash
+python main.py
+```
+## 📊 Kết quả
+
+- **Male**: Nam
+- **Female**: Nữ
+- **Unknown**: Không xác định (confidence < 60%)
